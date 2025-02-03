@@ -10,4 +10,4 @@
 
 [Nike](https://www.nike.com)
 
-![Alt text](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.espn.com%2Fcollege-football%2Fplayer%2F_%2Fid%2F5153715%2Fhayden-opitz&psig=AOvVaw0Wb5jJat5mHs0SP8jGe44H&ust=1738711534644000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKCY2qzTqIsDFQAAAAAdAAAAABAE![image](https://github.com/user-attachments/assets/01b3ea88-33dd-4c44-8a09-85720877ea7c)
+![ESPN Pic](https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/5153715.png)
