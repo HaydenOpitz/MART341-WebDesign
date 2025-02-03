@@ -6,9 +6,9 @@
 
 Best Cheeses
 
--Cheddar
--American
--Swiss
+- Cheddar
+- American
+- Swiss
 
 [Nike](https://www.nike.com)
 
