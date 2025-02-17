@@ -1,0 +1,1 @@
+One class I really enjoyed was my senior year english class with all of my good high school friends. It was special because the teacher was one of my friend's dad who made the class super engaging and fun all around. 
