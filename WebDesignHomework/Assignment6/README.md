@@ -1,2 +1,8 @@
-#New Website
+# Travel Website
 I have chosen to do my travel website for a first impression on creating and to make something more light and fun as I continue to learn this material.
+## Reflection
+- I balanced my concepts in the website by using colors that work with travel such as orange, blue , and sand to help add to the viewing and readability. I stayed pretty basic on my width however, using your example to help guide me along due to this being on of the most challenging assignments yet in my opinion.
+- My final design is very similar to what I had in mind. I got all the information I wanted onto it and with some pictures that I think fot the vibe very well overall. I did have to make a couple adjusments in title placement and widths to make sure everthing was neat and fit properly.
+- I did experiment with floating and margin it was honestkly pretty frustrating when I tried to change it to my own will and wasn'r working the way I wanted. So i stuck pretty closely to your example to help guide me through the mess.
+- The only major challenge I had for this assignment was learning what everything meant all at once. This was a big step forward and I had to take several breaks due to me getting frustrated trying to fortmat everything right. But with some time an displine I was finally to get this to a point that I liked to present to you.
+- I am honestly doing great. It is very stressful at times with this work just trying to piece thing together through the tutorials. But your addition of personal examples are life saving to me and greatly help me in seeing how to format and what I did wrong in a certain part or aspect of the assignment. 
