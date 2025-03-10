@@ -3,11 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Autumn To-Do List</title>
+  <title>Travel Bucket List</title>
   <style>
-
-    body {background-color: rgb(255, 237, 239)}
-    h1, h3 {color: rgb(128, 0, 73)}
+    body {background-color: rgb(250, 243, 221)}
+    h1, h3 {color: rgb(33, 64, 95)}
     table {
       width: 100%;
       border-collapse: collapse;
@@ -17,7 +16,7 @@
       padding: 8px;
     }
     th {
-      background-color: #f4a460;
+      background-color: #cc5500;
       color: white;
     }
     tr:nth-child(even) {
@@ -28,56 +27,56 @@
 <body>
 
     <a style="float: right; padding: 10px" href="index.html">HOME</a>
-    <a style="float: right; padding: 10px" href="activities.html">ACTIVITIES</a>
+    <a style="float: right; padding: 10px" href="bucketlist.html">BUCKET LIST</a>
 
-    <h1 style="text-align: left;">Cozy Harvest</h1> 
+    <h1 style="text-align: left;">Hayden's Travel Goals</h1> 
 
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuSXjL_dfUYT8dg_5WuJZVr6asRqMvVh7pMQ&s" alt="A fall-themed entryway" title="Autumn Exterior" width="33%" height="auto"/>
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgNNhdptVYB907MwjmfKIoWFFxUH-d5MNX0g&s" alt="A group of hikers surrounded by lush autumn foliage" title="Autumn Adventure" width="33%" height="auto"/>
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEuNor-n9-JQEN4gXDnfKt5mbGkiAlb5ddpg&s" alt="A teacup and book resting on cozy-looking fabric" title="Cozy Fall Day" width="33%" height="auto"/>   
+    <img src="https://cdn.pixabay.com/photo/2016/11/18/16/15/cancun-1834836_640.jpg" alt="Cancun Beach" title="Cancun" width="33%" height="auto"/>
+    <img src="https://cdn.pixabay.com/photo/2016/10/11/18/39/colosseum-1733870_640.jpg" alt="Colosseum in Rome" title="Colosseum" width="33%" height="auto"/>
+    <img src="https://cdn.pixabay.com/photo/2017/02/14/03/03/machu-picchu-2064522_640.jpg" alt="Machu Picchu" title="Machu Picchu" width="33%" height="auto"/>   
 
-<h3 style="text-align: center;">Autumn Activities</h3>
+<h3 style="text-align: center;">Travel Bucket List</h3>
   
   <table>
     <tr>
       <th></th>
-      <th scope="col">Activity</th>
+      <th scope="col">Destination</th>
       <th scope="col">Status</th>
     </tr>
     <tr>
-      <th scope="row">Go apple picking</th>
-      <td>Pick apples at a local orchard</td>
+      <th scope="row">Colosseum</th>
+      <td>Visit the historic Roman amphitheater</td>
       <td><input type="checkbox" id="task1"></td>
     </tr>
     <tr>
-      <th scope="row">Visit a pumpkin patch</th>
-      <td>Pick out a pumpkin for carving or decoration</td>
+      <th scope="row">Christ the Redeemer</th>
+      <td>See the famous statue in Rio de Janeiro</td>
       <td><input type="checkbox" id="task2"></td>
     </tr>
     <tr>
-      <th scope="row">Bake a pumpkin pie</th>
-      <td>Make a homemade pumpkin pie</td>
+      <th scope="row">Machu Picchu</th>
+      <td>Explore the ancient Incan city in Peru</td>
       <td><input type="checkbox" id="task3"></td>
     </tr>
     <tr>
-      <th scope="row">Go on a scenic fall hike</th>
-      <td>Enjoy the autumn foliage</td>
+      <th scope="row">Great Wall of China</th>
+      <td>Walk along the legendary wall</td>
       <td><input type="checkbox" id="task4"></td>
     </tr>
   </table>
 
-  <form action="mailto:brittany.westlund@umconnect.umt.edu" method="post" enctype="text/plain">
-    <h3 style="text-align: center;">Suggest an Activity</h3>
+  <form action="mailto:hayden.opitz@travelmail.com" method="post" enctype="text/plain">
+    <h3 style="text-align: center;">Suggest a Destination</h3>
     <fieldset>
-       <legend>Activity Suggestion</legend>
+       <legend>Destination Suggestion</legend>
        <label>Your Email:<br />
           <input type="email" name="email" required /></label>
        <br />
-       <label>Suggested Activity:<br />
-          <input type="text" name="activity" required /></label>
+       <label>Suggested Destination:<br />
+          <input type="text" name="destination" required /></label>
        <br />
-       <label>Description of the Activity:<br />
-          <textarea name="description" rows="4" cols="50" placeholder="Describe activity here..." required></textarea></label>
+       <label>Description of the Destination:<br />
+          <textarea name="description" rows="4" cols="50" placeholder="Describe destination here..." required></textarea></label>
     </fieldset>
     
     <br/>
