@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Bucket List</title>
+  <style>
+
+    body {background-color: rgb(230, 244, 255)}
+    h1, h3 {color: rgb(0, 51, 102)}
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+    }
+    th {
+      background-color: #0073e6;
+      color: white;
+    }
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+  </style>
+</head>
+<body>
+
+    <a style="float: right; padding: 10px" href="index.html">HOME</a>
+    <a style="float: right; padding: 10px" href="destinations.html">DESTINATIONS</a>
+
+    <h1 style="text-align: left;">Places I Want To See</h1> 
+
+    <img src="https://plus.unsplash.com/premium_photo-1661963643348-e95c6387ee8a?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c2FudG9yaW5pJTJDJTIwZ3JlZWNlfGVufDB8fDB8fHww" alt="Best View There Is" title="Santorini, Greece" width="20%" height="auto"/>
+    <img src="https://cdn.pixabay.com/photo/2016/11/29/12/12/architecture-1869398_640.jpg" alt="Stunning Walkway" title="Kyoto, Japan" width="20%" height="auto"/>
+    <img src="https://cdn.pixabay.com/photo/2016/01/13/17/48/machupicchu-1138641_1280.jpg" alt="A Stone Wonderland" title="Machu Picchu, Peru" width="20%" height="auto"/>   
+    <img src="https://cdn.pixabay.com/photo/2023/05/04/02/24/bali-7969001_1280.jpg" alt="A Private Paradise" title="Bali, Indonesia" width="20%" height="auto"/>   
+  
+<h3 style="text-align: center;">Destination</h3>
+  
+  <table>
+    <tr>
+      <th></th>
+      <th scope="col">Description</th>
+      <th scope="col">Have You Visited?</th>
+    </tr>
+    <tr>
+      <th scope="row">Santorini, Greece</th>
+      <td>Explore the white-washed buildings and stunning ocean views</td>
+      <td><input type="checkbox" id="task1"></td>
+    </tr>
+    <tr>
+      <th scope="row">Kyoto, Japan</th>
+      <td>Visit ancient temples and enjoy cherry blossoms</td>
+      <td><input type="checkbox" id="task2"></td>
+    </tr>
+    <tr>
+      <th scope="row">Machu Picchu, Peru</th>
+      <td>Hike to the breathtaking Incan ruins</td>
+      <td><input type="checkbox" id="task3"></td>
+    </tr>
+    <tr>
+      <th scope="row">Bali, Indonesia</th>
+      <td>Relax on beautiful beaches and explore lush jungles</td>
+      <td><input type="checkbox" id="task4"></td>
+    </tr>
+  </table>
+
+  <form action="mailto:hayden.opitz@umconnect.umt.edu" method="post" enctype="text/plain">
+    <h3 style="text-align: center;">Suggest a Destination</h3>
+    <fieldset>
+       <legend>Destination Suggestion</legend>
+       <label>Your Email:<br />
+          <input type="email" name="email" required /></label>
+       <br />
+       <label>Suggested Destination:<br />
+          <input type="text" name="destination" required /></label>
+       <br />
+       <label>Description of the Destination:<br />
+          <textarea name="description" rows="4" cols="50" placeholder="Describe destination here..." required></textarea></label>
+    </fieldset>
+    
+    <br/>
+    
+    <input type="submit" value="Submit Suggestion" />
+ </form>
+
+</body>
+</html>
