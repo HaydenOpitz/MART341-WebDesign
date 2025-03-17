@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel Tips</title>
     <style>
-        body 
- 
-        {
+        body {
             font-family: Arial, sans-serif;
             background-color: #f0f8ff;
             text-align: center;
+            margin: 0;
+            padding: 0;
         }
         nav {
             background-color: #333;
@@ -39,14 +39,29 @@
         .media {
             margin-top: 20px;
         }
+        /* Responsive design for smaller screens */
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+            }
+            nav a {
+                display: block;
+                margin: 5px 0;
+            }
+            video, iframe {
+                width: 100%;
+            }
+        }
     </style>
 </head>
 <body>
-    <nav>
-        <a href="index.html">HOME</a>
-        <a href="travel-tips.html">TRAVEL TIPS</a>
-        <a href="destinations.html">DESTINATIONS</a>
-    </nav>
+    <header>
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="travel-tips.html">TRAVEL TIPS</a>
+            <a href="destinations.html">DESTINATIONS</a>
+        </nav>
+    </header>
     
     <h1>✈️ Essential Travel Tips ✈️</h1>
     <div class="container">
@@ -66,10 +81,7 @@
     
     <div class="media">
         <h2>Watch: Travel Safety Tips</h2>
-        <video width="80%" controls>
-            <source src="video/travel-safety.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
+        <iframe width="80%" height="450" src="https://www.youtube.com/embed/0bnR0qdphCQ?si=MliIwhp9jM5DIaL7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
     
     <div class="media">
@@ -86,7 +98,7 @@
     </div>
     
     <footer>
-        <p>&copy; 2024 Hayden's Travel Blog &bull; Explore More</p>
+        <p>&copy; 2025 Hayden's Travel Blog &bull; Explore More</p>
     </footer>
 </body>
 </html>
