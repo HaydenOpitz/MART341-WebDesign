@@ -21,5 +21,5 @@ I used an iframe to embed a Google Map showing a popular destination. This gives
 I used the class `highlight` to style key phrases in the text and `media` to structure and style the media sections (audio and video). These classes help maintain consistency across the page.
 
 ### Escape Character (at least 1):
-I used the escape character `&copy;` in my footer statement.
+I used the escape character &copy; in my footer statement.
 
