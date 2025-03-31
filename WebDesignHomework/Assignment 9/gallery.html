@@ -3,37 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sneaker Cleaning Gallery</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Gallery - Sneaker Cleaning Guide</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #F2F2F2;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        nav {
+            text-align: center;
+            background-color: #444;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 1.2rem;
+        }
+        nav a:hover {
+            background-color: #888;
+        }
+        .content {
+            padding: 20px;
+            width: 80%;
+            margin: 20px auto;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
+
+    <header>
+        <h1>Sneaker Cleaning Guide</h1>
+    </header>
+
     <nav>
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="gallery.html">Gallery</a>
     </nav>
-    
-    <header>
-        <h1>Before & After Sneaker Cleaning</h1>
-    </header>
-    
-    <section class="gallery">
-        <div class="gallery-item">
-            <img src="images/before1.jpg" alt="Dirty Sneakers Before Cleaning">
-            <img src="images/after1.jpg" alt="Clean Sneakers After Cleaning">
-        </div>
-        <div class="gallery-item">
-            <img src="images/before2.jpg" alt="Dirty Sneakers Before Cleaning">
-            <img src="images/after2.jpg" alt="Clean Sneakers After Cleaning">
-        </div>
-        <div class="gallery-item">
-            <img src="images/before3.jpg" alt="Dirty Sneakers Before Cleaning">
-            <img src="images/after3.jpg" alt="Clean Sneakers After Cleaning">
-        </div>
-    </section>
-    
-    <footer>
-        <p>&copy; 2024 Sneaker Care Guide</p>
-    </footer>
-</body>
-</html>
+
+    <div class="content
