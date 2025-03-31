@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gallery - How to Clean Dirty Sneakers</title>
+    <title>Gallery - Sneaker Cleaning</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -11,21 +11,28 @@
             margin: 0;
             padding: 0;
             color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; 
         }
+
         header {
             background-color: #009688;
             color: white;
             text-align: center;
             padding: 10px 0;
         }
+
         header h1 {
             margin: 0;
         }
+
         nav {
             background-color: #00796b;
             padding: 10px;
             text-align: center;
         }
+
         nav a {
             color: white;
             text-decoration: none;
@@ -33,46 +40,45 @@
             margin: 0 10px;
             font-size: 18px;
         }
+
         nav a:hover {
             background-color: #004d40;
         }
-        .content {
+
+        .gallery-content {
             padding: 40px 10%;
+            flex-grow: 1; 
         }
-        .content h2 {
+
+        .gallery-content h2 {
             color: #009688;
             font-size: 32px;
         }
-        .gallery-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
             gap: 20px;
-            padding: 20px 0;
+            justify-content: center;
         }
-        .gallery-item {
-            background-color: #ffffff;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-            padding: 15px;
-            text-align: center;
+
+        .gallery img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
         }
-        .gallery-item img {
-            width: 100%;
-            height: auto;
-            border-radius: 8px;
-        }
+
         .footer {
             text-align: center;
             background-color: #00796b;
             color: white;
             padding: 10px;
-            position: absolute;
-            width: 100%;
-            bottom: 0;
+            margin-top: auto; 
         }
     </style>
 </head>
 <body>
-
     <header>
         <h1>Sneaker Cleaning Gallery</h1>
     </header>
@@ -80,46 +86,23 @@
     <nav>
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
-        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
     </nav>
 
-    <div class="content">
-        <h2>Before & After: Sneaker Transformations</h2>
-        <p>Explore our gallery to see the amazing transformations of sneakers before and after they’ve been cleaned using our simple guide. These images show how effective the cleaning steps are, giving you a better idea of the results you can expect!</p>
+    <div class="gallery-content">
+        <h2>Gallery of Cleaned Sneakers</h2>
+        <p>Here are some examples of sneakers that have been cleaned using our step-by-step guide. See how well your shoes can look after a proper cleaning!</p>
 
-        <div class="gallery-grid">
-            <div class="gallery-item">
-                <img src="images/sneaker_before_1.jpg" alt="Before cleaning sneaker 1">
-                <h3>Before Cleaning</h3>
-            </div>
-            <div class="gallery-item">
-                <img src="images/sneaker_after_1.jpg" alt="After cleaning sneaker 1">
-                <h3>After Cleaning</h3>
-            </div>
-            <div class="gallery-item">
-                <img src="images/sneaker_before_2.jpg" alt="Before cleaning sneaker 2">
-                <h3>Before Cleaning</h3>
-            </div>
-            <div class="gallery-item">
-                <img src="images/sneaker_after_2.jpg" alt="After cleaning sneaker 2">
-                <h3>After Cleaning</h3>
-            </div>
-            <div class="gallery-item">
-                <img src="images/sneaker_before_3.jpg" alt="Before cleaning sneaker 3">
-                <h3>Before Cleaning</h3>
-            </div>
-            <div class="gallery-item">
-                <img src="images/sneaker_after_3.jpg" alt="After cleaning sneaker 3">
-                <h3>After Cleaning</h3>
-            </div>
+        <div class="gallery">
+            <img src="images/sneaker_before_after_1.jpg" alt="Sneaker Before and After 1">
+            <img src="images/sneaker_before_after_2.jpg" alt="Sneaker Before and After 2">
+            <img src="images/sneaker_before_after_3.jpg" alt="Sneaker Before and After 3">
+            <img src="images/sneaker_before_after_4.jpg" alt="Sneaker Before and After 4">
         </div>
-
-        <p>Click on the images to view them in full size and see the detail of each transformation. Each of these sneakers was cleaned using the steps outlined in our guide, and the results speak for themselves!</p>
     </div>
 
-    <footer>
-        <p>&copy; 2025 How To Clean Dirty Sneakers</p>
-    </footer>
-
+    <div class="footer">
+        <p>&copy; 2025 Sneaker Cleaning</p>
+    </div>
 </body>
 </html>
