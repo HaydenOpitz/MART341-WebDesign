@@ -31,7 +31,6 @@ Use a clean, damp microfiber cloth to wipe away any soap or detergent from the s
 ### Step 6: Dry the Sneakers
 Stuff the sneakers with paper towels or newspaper to help them keep their shape while drying. Let them air dry in a well-ventilated area, but avoid direct sunlight as it can cause fading. Do not use a dryer, as it could damage the material.
 
----
 
 ## How to Wash Your Shoes in a Washing Machine (Optional)
 
@@ -44,15 +43,9 @@ Sometimes using a washing machine might be a faster way to clean your sneakers, 
 
 You can watch a video on how to wash sneakers in the washing machine [here](https://www.youtube.com/watch?v=KLp1JVifIfk). Again, keep in mind that this method is faster but more likely to wear down the shoes over time.
 
----
 
 ## Additional Tips:
 - **Stain Removal:** For stubborn stains, use a magic eraser or sneaker-specific cleaner.
 - **Deodorizing:** To keep your shoes smelling fresh, sprinkle some baking soda inside the shoes overnight, then shake it out the next morning.
 - **Waterproofing:** Consider applying a waterproofing spray to help protect your sneakers from future dirt and stains.
 
-By following these steps, you can keep your sneakers looking clean and fresh for a longer period of time!
-
----
-
-**Note:** Always check the care instructions for your specific sneakers, as some materials may require special cleaning techniques.
