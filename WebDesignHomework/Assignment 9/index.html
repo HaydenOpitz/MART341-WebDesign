@@ -7,13 +7,16 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #F2F2F2;
+            background-color: #f4f4f9;
             color: #333;
             margin: 0;
             padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
         }
         header {
-            background-color: #333;
+            background-color: #009688;
             color: white;
             text-align: center;
             padding: 20px 0;
@@ -23,8 +26,8 @@
             font-size: 2.5rem;
         }
         nav {
+            background-color: #00796b;
             text-align: center;
-            background-color: #444;
         }
         nav a {
             color: white;
@@ -34,12 +37,11 @@
             font-size: 1.2rem;
         }
         nav a:hover {
-            background-color: #888;
+            background-color: #004d40;
         }
         .content {
-            padding: 20px;
-            width: 80%;
-            margin: 20px auto;
+            padding: 40px 10%;
+            flex-grow: 1;
             background-color: white;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -56,7 +58,7 @@
             box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
         }
         .step h2 {
-            color: #333;
+            color: #009688;
         }
         .step img {
             width: 100%;
@@ -71,8 +73,8 @@
             height: 500px;
             border-radius: 8px;
         }
-        footer {
-            background-color: #333;
+        .footer {
+            background-color: #00796b;
             color: white;
             text-align: center;
             padding: 10px;
@@ -166,7 +168,7 @@
         </div>
     </div>
 
-    <footer>
+    <footer class="footer">
         <p>&copy; 2025 How To Clean Dirty Sneakers</p>
     </footer>
 
