@@ -4,7 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery - Sneaker Cleaning</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; 
+        }
+
+        header {
+            background-color: #009688;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            background-color: #00796b;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 20px;
+            margin: 0 10px;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            background-color: #004d40;
+        }
+
+        .gallery-content {
+            padding: 40px 10%;
+            flex-grow: 1; 
+        }
+
+        .gallery-content h2 {
+            color: #009688;
+            font-size: 32px;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .gallery img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .footer {
+            text-align: center;
+            background-color: #00796b;
+            color: white;
+            padding: 10px;
+            margin-top: auto; 
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -15,7 +87,6 @@
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="gallery.html">Gallery</a>
-        <a href="getinvolved.html">Get Involved</a>
     </nav>
 
     <div class="gallery-content">
@@ -23,27 +94,15 @@
         <p>Here are some examples of how a sneaker can look after being cleaned properly!</p>
 
         <div class="gallery">
-            <div class="gallery-item">
-                <img src="https://i.dailymail.co.uk/1s/2020/08/17/06/32032500-0-image-a-3_1597643930351.jpg" alt="Sneaker Before and After 1">
-                <p>Before and After Cleaning 1</p>
-            </div>
-            <div class="gallery-item">
-                <img src="https://s3-media0.fl.yelpcdn.com/bphoto/YJcQ882cD5S7AIN_lFc_2w/1000s.jpg" alt="Sneaker Before and After 2">
-                <p>Before and After Cleaning 2</p>
-            </div>
-            <div class="gallery-item">
-                <img src="https://i.dailymail.co.uk/1s/2022/11/02/00/64093837-0-image-a-6_1667348590210.jpg" alt="Sneaker Before and After 3">
-                <p>Before and After Cleaning 3</p>
-            </div>
-            <div class="gallery-item">
-                <img src="https://i.dailymail.co.uk/1s/2021/02/16/03/39338216-0-image-a-52_1613446873408.jpg" alt="Sneaker Before and After 4">
-                <p>Before and After Cleaning 4</p>
-            </div>
+            <img src="https://i.dailymail.co.uk/1s/2020/08/17/06/32032500-0-image-a-3_1597643930351.jpg" alt="Sneaker Before and After 1">
+            <img src="https://s3-media0.fl.yelpcdn.com/bphoto/YJcQ882cD5S7AIN_lFc_2w/1000s.jpg" alt="Sneaker Before and After 2">
+            <img src="https://i.dailymail.co.uk/1s/2022/11/02/00/64093837-0-image-a-6_1667348590210.jpg" alt="Sneaker Before and After 3">
+            <img src="https://i.dailymail.co.uk/1s/2021/02/16/03/39338216-0-image-a-52_1613446873408.jpg" alt="Sneaker Before and After 4">
         </div>
     </div>
 
-    <footer class="footer">
+    <div class="footer">
         <p>&copy; 2025 Sneaker Cleaning</p>
-    </footer>
+    </div>
 </body>
 </html>
