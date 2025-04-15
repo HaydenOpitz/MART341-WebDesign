@@ -108,3 +108,53 @@ iframe {
     bottom: 0;
     width: 100%;
 }
+
+/* Import self-hosted font */
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+/* Apply self-hosted and Google Fonts */
+body {
+    font-family: 'OpenSans', Arial, sans-serif;
+    line-height: 1.6;
+    letter-spacing: 0.3px;
+}
+
+/* Google Font for headers */
+header h1, .content h2 {
+    font-family: 'Anton', sans-serif;
+    font-weight: normal;
+}
+
+/* Spacing & layout for about page */
+.about-page h2 {
+    margin-top: 40px;
+    color: #00796b;
+    border-bottom: 2px solid #009688;
+    padding-bottom: 5px;
+}
+
+.about-page p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/* Hover effect */
+nav a:hover, nav a.active {
+    background-color: #004d40;
+    text-decoration: underline;
+}
+
+/* Pseudo-element: add effect to first line */
+.about-page p::first-line {
+    font-weight: bold;
+}
+
+/* Highlight class for emphasis */
+.highlight {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #009688;
+}
