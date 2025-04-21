@@ -1,6 +1,12 @@
+/* Font Imports */
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
+}
 
+/* Base Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'OpenSans', Arial, sans-serif;
     background-color: #f4f4f9;
     color: #333;
     margin: 0;
@@ -8,9 +14,11 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    line-height: 1.6;
+    letter-spacing: 0.3px;
 }
 
-
+/* Header */
 header {
     background-color: #009688;
     color: white;
@@ -21,12 +29,15 @@ header {
 header h1 {
     margin: 0;
     font-size: 2.5rem;
+    font-family: 'Anton', sans-serif;
+    font-weight: normal;
 }
 
-
+/* Navigation */
 nav {
     background-color: #00796b;
     text-align: center;
+    padding: 10px;
 }
 
 nav a {
@@ -35,14 +46,28 @@ nav a {
     text-decoration: none;
     display: inline-block;
     font-size: 1.2rem;
+    margin: 0 10px;
 }
 
-nav a:hover {
+nav a:hover,
+nav a.active {
     background-color: #004d40;
+    text-decoration: underline;
 }
 
+/* Footer */
+.footer {
+    background-color: #00796b;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+    width: 100%;
+}
 
-.content {
+/* General Content */
+.content,
+.gallery-content {
     padding: 40px 10%;
     flex-grow: 1;
     background-color: white;
@@ -50,17 +75,25 @@ nav a:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.content h2,
+.gallery-content h2 {
+    color: #009688;
+    font-size: 32px;
+    font-family: 'Anton', sans-serif;
+    font-weight: normal;
+}
 
+/* Materials Section */
 #materials-section {
     border: 2px dashed #009688;
     padding: 10px;
     margin-bottom: 20px;
 }
 
-
+/* Cleaning Steps Section */
 .steps {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
 
@@ -82,12 +115,11 @@ nav a:hover {
     transition: opacity 0.3s ease;
 }
 
-
 .step img:hover {
     opacity: 0.85;
 }
 
-
+/* Video Banner */
 .video-banner {
     margin: 20px 0;
 }
@@ -98,117 +130,7 @@ iframe {
     border-radius: 8px;
 }
 
-
-.footer {
-    background-color: #00796b;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-
-
-@font-face {
-    font-family: 'OpenSans';
-    src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
-}
-
-
-body {
-    font-family: 'OpenSans', Arial, sans-serif;
-    line-height: 1.6;
-    letter-spacing: 0.3px;
-}
-
-
-header h1, .content h2 {
-    font-family: 'Anton', sans-serif;
-    font-weight: normal;
-}
-
-
-.about-page h2 {
-    margin-top: 40px;
-    color: #00796b;
-    border-bottom: 2px solid #009688;
-    padding-bottom: 5px;
-}
-
-.about-page p {
-    margin-bottom: 20px;
-    text-align: justify;
-}
-
-
-nav a:hover, nav a.active {
-    background-color: #004d40;
-    text-decoration: underline;
-}
-
-
-.about-page p::first-line {
-    font-weight: bold;
-}
-
-
-.highlight {
-    font-weight: bold;
-    text-decoration: underline;
-    color: #009688;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
-    margin: 0;
-    padding: 0;
-    color: #333;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh; 
-}
-
-header {
-    background-color: #009688;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-}
-
-header h1 {
-    margin: 0;
-}
-
-nav {
-    background-color: #00796b;
-    padding: 10px;
-    text-align: center;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    padding: 15px 20px;
-    margin: 0 10px;
-    font-size: 18px;
-}
-
-nav a:hover {
-    background-color: #004d40;
-}
-
-.gallery-content {
-    padding: 40px 10%;
-    flex-grow: 1; 
-}
-
-.gallery-content h2 {
-    color: #009688;
-    font-size: 32px;
-}
-
+/* Gallery */
 .gallery {
     display: flex;
     flex-wrap: wrap;
@@ -223,10 +145,26 @@ nav a:hover {
     border-radius: 10px;
 }
 
-.footer {
-    text-align: center;
-    background-color: #00796b;
-    color: white;
-    padding: 10px;
-    margin-top: auto; 
+/* About Page */
+.about-page h2 {
+    margin-top: 40px;
+    color: #00796b;
+    border-bottom: 2px solid #009688;
+    padding-bottom: 5px;
+}
+
+.about-page p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.about-page p::first-line {
+    font-weight: bold;
+}
+
+/* Utility Class */
+.highlight {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #009688;
 }
