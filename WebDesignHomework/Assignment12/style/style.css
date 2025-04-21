@@ -1,12 +1,6 @@
-/* Font Imports */
-@font-face {
-    font-family: 'OpenSans';
-    src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
-}
 
-/* Base Styles */
 body {
-    font-family: 'OpenSans', Arial, sans-serif;
+    font-family: Arial, sans-serif;
     background-color: #f4f4f9;
     color: #333;
     margin: 0;
@@ -14,11 +8,9 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    line-height: 1.6;
-    letter-spacing: 0.3px;
 }
 
-/* Header */
+
 header {
     background-color: #009688;
     color: white;
@@ -29,15 +21,12 @@ header {
 header h1 {
     margin: 0;
     font-size: 2.5rem;
-    font-family: 'Anton', sans-serif;
-    font-weight: normal;
 }
 
-/* Navigation */
+
 nav {
     background-color: #00796b;
     text-align: center;
-    padding: 10px;
 }
 
 nav a {
@@ -46,28 +35,14 @@ nav a {
     text-decoration: none;
     display: inline-block;
     font-size: 1.2rem;
-    margin: 0 10px;
 }
 
-nav a:hover,
-nav a.active {
+nav a:hover {
     background-color: #004d40;
-    text-decoration: underline;
 }
 
-/* Footer */
-.footer {
-    background-color: #00796b;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    margin-top: auto;
-    width: 100%;
-}
 
-/* General Content */
-.content,
-.gallery-content {
+.content {
     padding: 40px 10%;
     flex-grow: 1;
     background-color: white;
@@ -75,25 +50,17 @@ nav a.active {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.content h2,
-.gallery-content h2 {
-    color: #009688;
-    font-size: 32px;
-    font-family: 'Anton', sans-serif;
-    font-weight: normal;
-}
 
-/* Materials Section */
 #materials-section {
     border: 2px dashed #009688;
     padding: 10px;
     margin-bottom: 20px;
 }
 
-/* Cleaning Steps Section */
+
 .steps {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
 }
 
@@ -115,11 +82,12 @@ nav a.active {
     transition: opacity 0.3s ease;
 }
 
+
 .step img:hover {
     opacity: 0.85;
 }
 
-/* Video Banner */
+
 .video-banner {
     margin: 20px 0;
 }
@@ -130,22 +98,37 @@ iframe {
     border-radius: 8px;
 }
 
-/* Gallery */
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
+
+.footer {
+    background-color: #00796b;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
 
-.gallery img {
-    width: 300px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 10px;
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
 }
 
-/* About Page */
+
+body {
+    font-family: 'OpenSans', Arial, sans-serif;
+    line-height: 1.6;
+    letter-spacing: 0.3px;
+}
+
+
+header h1, .content h2 {
+    font-family: 'Anton', sans-serif;
+    font-weight: normal;
+}
+
+
 .about-page h2 {
     margin-top: 40px;
     color: #00796b;
@@ -158,11 +141,18 @@ iframe {
     text-align: justify;
 }
 
+
+nav a:hover, nav a.active {
+    background-color: #004d40;
+    text-decoration: underline;
+}
+
+
 .about-page p::first-line {
     font-weight: bold;
 }
 
-/* Utility Class */
+
 .highlight {
     font-weight: bold;
     text-decoration: underline;
