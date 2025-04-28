@@ -1,5 +1,4 @@
-/* Reset some default styles */
-* {
+ {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -38,7 +37,7 @@ nav {
   background-color: #f08055;
 }
 
-/* Dropdown */
+
 .dropdown-content {
   display: none;
   position: absolute;
@@ -55,7 +54,7 @@ nav {
   display: block;
 }
 
-/* Hero Section */
+
 .hero {
   background-color: #fbe8a6;
   padding: 3rem;
@@ -67,7 +66,7 @@ nav {
   margin-bottom: 1rem;
 }
 
-/* Main content */
+
 main {
   padding: 2rem;
 }
@@ -81,7 +80,7 @@ h2 {
   margin-bottom: 1rem;
 }
 
-/* Footer */
+
 footer {
   background-color: #303841;
   color: white;
@@ -89,7 +88,7 @@ footer {
   padding: 1rem;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
   .nav-links {
     flex-direction: column;
