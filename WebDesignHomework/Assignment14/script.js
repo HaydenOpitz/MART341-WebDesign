@@ -1,12 +1,12 @@
-function validateForm() {
-  let name = document.getElementById("name").value;
-  let email = document.getElementById("email").value;
-  let message = document.getElementById("message").value;
-
-  if (!name || !email || !message) {
-    alert("Please fill out all fields before submitting.");
-    return false;
-  }
-  alert("Form submitted successfully!");
-  return true;
-}
+window.onload = function() {
+  const canvas = document.getElementById('pawCanvas');
+  const ctx = canvas.getContext('2d');
+  const img = new Image();
+  
+  
+  img.onload = function() {
+    ctx.drawImage(img, 50, 50, 100, 100);
+  };
+  
+  img.src = 'images/paw-print.png'; 
+};
