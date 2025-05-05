@@ -1,58 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Happy Tails - Adopt</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-warning">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">Happy Tails</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle active" href="adopt.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown">Adopt</a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#dogs">Dogs</a></li>
-              <li><a class="dropdown-item" href="#cats">Cats</a></li>
-              <li><a class="dropdown-item" href="#others">Others</a></li>
-            </ul>
-          </li>
-          <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
-          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-        </ul>
+
+<nav>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li class="dropdown">
+      <a href="adopt.html" class="dropbtn">Adopt</a>
+      <div class="dropdown-content">
+        <a href="#dogs">Dogs</a>
+        <a href="#cats">Cats</a>
+        <a href="#others">Others</a>
       </div>
-    </div>
-  </nav>
+    </li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
 
-  <main class="container my-5">
-    <h1>Meet Our Pets</h1>
-    <section id="dogs">
-      <h2>Dogs</h2>
-      <p>Adopt a loyal companion today.</p>
-    </section>
-    <section id="cats">
-      <h2>Cats</h2>
-      <p>Find your perfect feline friend.</p>
-    </section>
-    <section id="others">
-      <h2>Other Animals</h2>
-      <p>We also have rabbits, birds, and more!</p>
-    </section>
-  </main>
+<header class="hero">
+  <h1>Meet Our Pets</h1>
+</header>
 
-  <footer class="bg-dark text-white text-center py-3">
-    <p>&copy; 2025 Happy Tails Adoption Center</p>
-  </footer>
+<main>
+  <section id="dogs">
+    <h2>Dogs</h2>
+    <p>Friendly and loyal dogs looking for a new home.</p>
+  </section>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <section id="cats">
+    <h2>Cats</h2>
+    <p>Independent and cuddly cats ready to join your family.</p>
+  </section>
+
+  <section id="others">
+    <h2>Other Animals</h2>
+    <p>From rabbits to guinea pigs we have them all!</p>
+  </section>
+</main>
+
+<footer>
+  <p> 2025 Happy Tails Adoption Center</p>
+</footer>
+
 </body>
 </html>
-
