@@ -1,45 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Happy Tails - Contact</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact - Happy Tails</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
 
-<nav>
-  <ul class="nav-links">
-    <li><a href="index.html">Home</a></li>
-    <li class="dropdown">
-      <a href="adopt.html" class="dropbtn">Adopt</a>
-      <div class="dropdown-content">
-        <a href="adopt.html#dogs">Dogs</a>
-        <a href="adopt.html#cats">Cats</a>
-        <a href="adopt.html#others">Others</a>
-      </div>
-    </li>
-    <li><a href="about.html">About Us</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
+<nav class="navbar navbar-expand-lg navbar-dark bg-warning">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Happy Tails</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="adoptDropdown" role="button" data-bs-toggle="dropdown">Adopt</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="adopt.html#dogs">Dogs</a></li>
+            <li><a class="dropdown-item" href="adopt.html#cats">Cats</a></li>
+            <li><a class="dropdown-item" href="adopt.html#others">Others</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+        <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
 </nav>
 
-<header class="hero">
+<main class="container my-5">
   <h1>Contact Us</h1>
-</header>
-
-<main>
-  <section>
-    <h2>Get in Touch</h2>
-    <p>Email: Made-Up-Email@happytails.com</p>
-    <p>Phone: (555) 123-0000</p>
-    <p>Visit: Made-Up-Place, Missoula, MT</p>
-  </section>
+  <p>If you have any questions, feel free to reach out!</p>
+  <form>
+    <div class="mb-3">
+      <label for="name" class="form-label">Your Name</label>
+      <input type="text" class="form-control" id="name" placeholder="Jane Doe" required>
+    </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="email" placeholder="jane@example.com" required>
+    </div>
+    <div class="mb-3">
+      <label for="message" class="form-label">Your Message</label>
+      <textarea class="form-control" id="message" rows="4" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-warning">Send</button>
+  </form>
 </main>
 
-<footer>
-  <p> 2025 Happy Tails Adoption Center</p>
+<footer class="text-center bg-dark text-light py-3">
+  <p>2025 Happy Tails Adoption Center</p>
 </footer>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
